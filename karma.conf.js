@@ -15,7 +15,9 @@ export default config => {
       ],
 
       esm: {
+        babel: true,
         nodeResolve: true,
+        fileExtensions: ['.ts'],
       },
       // you can overwrite/extend the config further
     }),
