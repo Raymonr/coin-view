@@ -1,8 +1,8 @@
 import { LitElement, html, css, customElement } from 'lit-element';
 import { openWcLogo } from './open-wc-logo';
 
-@customElement('open-coin')
-export class OpenCoin extends LitElement {
+@customElement('open-wc-typescript')
+export class OpenWcTypescript extends LitElement {
   static get properties() {
     return {
       title: { type: String },
@@ -67,7 +67,7 @@ export class OpenCoin extends LitElement {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Code examples
+          Typescript Code examples
         </a>
       </main>
 
@@ -81,6 +81,6 @@ export class OpenCoin extends LitElement {
 
 declare global {
   interface HTMLElementTagNameMap {
-    'open-coin': OpenCoin;
+    'open-wc-typescript': OpenWcTypescript;
   }
 }

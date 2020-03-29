@@ -2,7 +2,7 @@
   "version": 2,
   "tags": [
     {
-      "name": "open-coin",
+      "name": "open-wc-typescript",
       "description": "An application with a title and an action counter",
       "properties": [
         {

@@ -1,12 +1,12 @@
 import { html, fixture, expect } from '@open-wc/testing';
 
-import '../src/OpenCoin';
+import '../src/OpenWc';
 
 describe('OpenCoin', () => {
   let element;
   beforeEach(async () => {
     element = await fixture(html`
-      <open-coin></open-coin>
+      <open-wc-typescript></open-wc-typescript>
     `);
   });
 

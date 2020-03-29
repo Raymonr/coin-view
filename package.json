@@ -21,7 +21,7 @@
     "@open-wc/building-rollup": "^0.21.0",
     "@open-wc/demoing-storybook": "^1.0.1",
     "@open-wc/eslint-config": "^2.0.0",
-    "@open-wc/prettier-config": "^0.1.10",
+    "@open-wc/prettier-config": "^0.1.14",
     "@open-wc/testing": "^2.0.0",
     "@open-wc/testing-karma": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^2.24.0",
@@ -53,15 +53,14 @@
   },
   "lint-staged": {
     "*.ts": [
-      "eslint --fix --quiet",
       "prettier --write",
       "git add"
     ]
   },
-  "name": "open-coin",
+  "name": "open-wc-typescript",
   "version": "0.0.0",
-  "description": "Webcomponent open-coin following open-wc recommendations",
-  "author": "open-coin",
+  "description": "Webcomponent open-wc-typescript following open-wc recommendations",
+  "author": "open-wc-typescript",
   "license": "MIT",
   "dependencies": {
     "lit-element": "^2.3.1",
